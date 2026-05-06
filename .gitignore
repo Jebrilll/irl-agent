@@ -1,0 +1,10 @@
+.gradle/
+.idea/
+.vscode/
+local.properties
+local.properties.backup
+android-sdk.zip
+build/
+app/build/
+*.iml
+.DS_Store

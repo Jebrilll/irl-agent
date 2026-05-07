@@ -17,8 +17,8 @@ jobs:
           java-version: 11
 
       - name: Make Gradle executable
-        run: chmod +x gradlew
+        run: chmod +x irl-agent/gradlew
 
       - name: Build AAB
-        run: |
-          ./gradlew --stacktrace --info :app:bundleRelease
+        run: ./gradlew --stacktrace --info :app:bundleRelease
+        working-directory: irl-agent

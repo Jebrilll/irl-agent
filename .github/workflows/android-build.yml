@@ -20,4 +20,5 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build AAB
-        run: ./gradlew bundleRelease --stacktrace --info
+        run: |
+          ./gradlew --stacktrace --info :app:bundleRelease

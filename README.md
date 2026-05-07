@@ -11,23 +11,11 @@ A minimalist Android app for digital wellbeing and app usage control.
 - About section with content from irl.ma
 - Language selection (English/Arabic) on first launch
 
-## Tech Stack
-- Kotlin
-- Jetpack Compose
-- MVVM Architecture
-- Room Database
-- WorkManager for background tasks
-- UsageStatsManager for tracking
-
 ## Permissions
 - PACKAGE_USAGE_STATS: To track app usage
 - POST_NOTIFICATIONS: To send limit notifications
 - SYSTEM_ALERT_WINDOW: To show overlay alerts
 
-## Build Instructions
-1. Open project in Android Studio
-2. Sync Gradle files
-3. Build APK or AAB
 
 ## Google Play Upload
 - **App Name:** irl agent
